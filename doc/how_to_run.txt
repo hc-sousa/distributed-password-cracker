@@ -1,0 +1,3 @@
+	Para correr o programa primeiro deve ser feito o build correndo ./build.sh na root do projeto
+	Isto irá criar o docker image para o main server e para os workers e correrá o main server no terminal em que for executado.
+	Depois para correr os slaves deve ser “./run.sh {n} log” onde n é o número do worker para o nome do container docker, por exemplo se n for igual a 1 irá criar um container com o nome “worker1”, o argumento log é opcional e só deve ser adicionado quando é pretendido obter mais informações relevantes sobre o que está a acontecer em cada um dos workers.
